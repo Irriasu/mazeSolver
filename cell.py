@@ -13,7 +13,7 @@ class Cell:
         self.win = win
         self.visited=False
 
-    def draw(self,x1,x2,y1,y2):
+    def draw(self,x1,y1,x2,y2):
         self.x1= x1
         self.x2= x2
         self.y1= y1
